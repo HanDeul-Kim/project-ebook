@@ -1,0 +1,186 @@
+{
+
+  "_comment": "page03 - word",
+
+  "p03word01": "BRACHIOSAURUS",
+  "p03word02": "TYRANNOSAURUS",
+  "p03word03": "TRICERATOPS",
+  "p03word04": "ALLOSAURUS",
+  "p03word05": "VELOCIRAPTOR",
+  "p03word06": "ARCHAEOPTERYX",
+  "p03word07": "PTERANODON",
+  "p03word08": "STEGOSAURUS",
+  "p03word09": "ANKYLOSAURUS",
+  "p03word10": "PACHYCEPHALOSAURUS",
+
+  
+  "wg01BtnT01": "Hind legs",
+  "wg01BtnT02": "Teeth",
+  "wg01BtnT03": "Forefoot",
+  "wg01BtnT04": "Toenail",
+  "wg01BtnT05": "Sound",
+  "wg01Modal01": "Its long leg allowed it to go 4 meters in one step.",
+  "wg01Modal02": "Tyrannosaurus had about 50 sharp teeth. The biggest tooth was as long as a banana.",
+  "wg01Modal03": "Its arms were small but strong. It could hold 2~3 adults with one arm.",
+  "wg01Modal04": "There were three long claws in its hind leg.",
+  "wg01Modal05": "test sound",
+
+
+  "wg02BtnT01": "pteranodon test",
+  "wg02BtnT02": "pteranodon test",
+  "wg02BtnT03": "pteranodon test",
+  "wg02BtnT04": "pteranodon test",
+  "wg02BtnT05": "pteranodon test",
+  "wg02Modal01": "Thanks to its large wings, it could glide through the air and save its energy.",
+  "wg02Modal02": "It used all four legs to walk on the ground.",
+  "wg02Modal03": "Pteranodon had a lightweight body because its bones were hollow.",
+  "wg02Modal04": "It is thought that Pteranodon had a beak pouch, just like pelicans.",
+  "wg02Modal05": "sound",
+
+  "wg03BtnT01": "머3리",
+  "wg03BtnT02": "이3빨",
+  "wg03BtnT03": "앞3발",
+  "wg03BtnT04": "배",
+  "wg03BtnT05": "소리",
+  "wg03Modal01": "03테스트01",
+  "wg03Modal02": "03테스트02",
+  "wg03Modal03": "03테스트03",
+  "wg03Modal04": "03테스트04",
+  "wg03Modal05": "03테스트05",
+
+  "wg04BtnT01": "머4리",
+  "wg04BtnT02": "이4빨",
+  "wg04BtnT03": "앞4발",
+  "wg04BtnT04": "배",
+  "wg04BtnT05": "소리",
+  "wg04Modal01": "04테스트01",
+  "wg04Modal02": "04테스트02",
+  "wg04Modal03": "04테스트03",
+  "wg04Modal04": "04테스트04",
+  "wg04Modal05": "04테스트05",
+
+  "wg05BtnT01": "머5리",
+  "wg05BtnT02": "이5빨",
+  "wg05BtnT03": "앞5발",
+  "wg05BtnT04": "배",
+  "wg05BtnT05": "소리",
+  "wg05Modal01": "05테스트01",
+  "wg05Modal02": "05테스트02",
+  "wg05Modal03": "05테스트03",
+  "wg05Modal04": "05테스트04",
+  "wg05Modal05": "05테스트05",
+
+  "wg06BtnT01": "머6리",
+  "wg06BtnT02": "이6빨",
+  "wg06BtnT03": "앞6발",
+  "wg06BtnT04": "배",
+  "wg06BtnT05": "소리",
+  "wg06Modal01": "06테스트01",
+  "wg06Modal02": "06테스트02",
+  "wg06Modal03": "06테스트03",
+  "wg06Modal04": "06테스트04",
+  "wg06Modal05": "06테스트05",
+
+  "wg07BtnT01": "머7리",
+  "wg07BtnT02": "이7빨",
+  "wg07BtnT03": "앞7발",
+  "wg07BtnT04": "배",
+  "wg07BtnT05": "소리",
+  "wg07Modal01": "07테스트01",
+  "wg07Modal02": "07테스트02",
+  "wg07Modal03": "07테스트03",
+  "wg07Modal04": "07테스트04",
+  "wg07Modal05": "07테스트05",
+
+  "wg08BtnT01": "머8리",
+  "wg08BtnT02": "이8빨",
+  "wg08BtnT03": "앞8발",
+  "wg08BtnT04": "배",
+  "wg08BtnT05": "소리",
+  "wg08Modal01": "08테스트01",
+  "wg08Modal02": "08테스트02",
+  "wg08Modal03": "08테스트03",
+  "wg08Modal04": "08테스트04",
+  "wg08Modal05": "08테스트05",
+
+  "wg09BtnT01": "머9리",
+  "wg09BtnT02": "이9빨",
+  "wg09BtnT03": "앞9발",
+  "wg09BtnT04": "배",
+  "wg09BtnT05": "소리",
+  "wg09Modal01": "09테스트01",
+  "wg09Modal02": "09테스트02",
+  "wg09Modal03": "09테스트03",
+  "wg09Modal04": "09테스트04",
+  "wg09Modal05": "09테스트05",
+
+  "wg10BtnT01": "머10리",
+  "wg10BtnT02": "이10빨",
+  "wg10BtnT03": "앞10발",
+  "wg10BtnT04": "배",
+  "wg10BtnT05": "소리",
+  "wg10Modal01": "10테스트01",
+  "wg10Modal02": "10테스트02",
+  "wg10Modal03": "10테스트03",
+  "wg10Modal04": "10테스트04",
+  "wg10Modal05": "10테스트05",
+  
+
+
+  
+  
+
+
+
+  "dinoTitle01": "TYRANNOSAURUS",
+  "dino01Con01": "Do you know which dinosaur is the strongest? It's the Tyrannosaurus. This animal, also known as a T-rex, had pointy teeth and a powerful jaw. It could crush the prey’s bone in an instant.",
+  "dino01Con02": "The monster's mouth was so gigantic that it could swallow 20 kilograms of meat at once. What a frightening dinosaur! However, this powerful animal wasn't totally flawless—it was a bad runner!",
+  "dino01Con03": "Scientists believe that the dinosaur was slower than a human. If you meet this horrifying monster, don't try to fight it. Just run!",
+
+  "dinoTitle02": "PTERANODON",
+  "dino02Con01": "Pteranodon was a master of flying. THE reptile took flight without flapping its wings by gliding into the wind. By flying like this, it saved a lot of energy.",
+  "dino02Con02": "Pteranodon was a flying reptile. it mostly ate fish.This reptile flew above water to search for fish.",
+  "dino02Con03": "When it found a prey, it jumped into the water and snatched it with its long beak. Paleontologists think that Pteranodon had a beak pouch like a pelican.",
+
+  "dinoTitle03": "Allosaurus",
+  "dino03Con01": "Allosaurus was a talented hunter. This monstrous killer hunted in packs. They hid secretly, and darted out when the prey appeared.",
+  "dino03Con02": "Allosauruses hung on to the prey with their pointy claws, and bit down with its big mouth. Allosaurus' teeth marks are often found in plant-eating dinosaurs' fossils.",
+  "dino03Con03": "In fact, Allosaurus' bite was weaker than that of the lions or leopards. So the dinosaur didn't try to crush the prey's bone like Tyrannosaurus did. Rather, it swung its big upper jaw like an ax. Then, it ripped off the prey's flesh using its keen teeth.",
+
+  "dinoTitle04": "Stegosaurus",
+  "dino04Con01": "Stegosaurus had leaf-like plates on its back. These plates frightened the enemies by making the dinosaur look bigger. Also, the plates were used for regulating heat.",
+  "dino04Con02": "It also had four horns on its tail. These horns were so long that you could stack more than 14 apples on the horn. A mighty blow with this horny tail could kill a huge dinosaur in a second.",
+  "dino04Con03": "An Allosaurus fossil was found with a giant hole from being smashed by a Stegosaurus’s horn. The giant meat-eater would have died immediately after Stegosaurus’ attack.",
+
+  "dinoTitle05": "Brachiosaurus",
+  "dino05Con01": "Brachiosaurus was twice as tall as a giraffe. Due to its big body, it had to eat as much as 120 kilograms of food every day. How could it eat so much food?",
+  "dino05Con02": "The secret lies in stones. Brachiosaurus didn't have well-developed teeth. Instead of teeth, small stones inside of its stomach smashed up food.",
+  "dino05Con03": "Brachiosaurus often swallowed small stones. The pebbles rubbed each other inside the stomach and broke down tough plants. So Brachiosaurus didn't have to chew a lot, and could eat quickly.",
+
+  "dinoTitle06": "Stegosaurus",
+  "dino06Con01": "Stegosaurus had leaf-like plates on its back. These plates frightened the enemies by making the dinosaur look bigger. Also, the plates were used for regulating heat.",
+  "dino06Con02": "It also had four horns on its tail. These horns were so long that you could stack more than 14 apples on the horn. A mighty blow with this horny tail could kill a huge dinosaur in a second.",
+  "dino06Con03": "An Allosaurus fossil was found with a giant hole from being smashed by a Stegosaurus’s horn. The giant meat-eater would have died immediately after Stegosaurus’ attack.",
+
+  "dinoTitle07": "Triceratops",
+  "dino07Con01": "Triceratops is a huge dinosaur with three big horns. The two horns above its eyes were as long as a 4-year-old child.",
+  "dino07Con02": "These two horns were strong enough to break a Tyrannosaurus’ legs. Meat-eating dinosaurs had to be careful with Triceratops — being stabbed by these horns meant they might lose their life!",
+  "dino07Con03": "When enemies approached a group of Triceratops, the weak cubs would hide in the middle of the herd, and the adults would stand outside and bravely defend. Fortunately, Triceratops were safe in most cases because they were strong enough to even knock down trees",
+
+  "dinoTitle08": "Pachycephalosaurus",
+  "dino08Con01": "Pachycephalosaurus was an expert of head-butting. This dinosaur defeated enemies by hitting their head with its own head. Also, Pachycephalosauruses head-butted each other when they were fighting for their own territory.",
+  "dino08Con02": "The dinosaurs' head bone was very thick. It was as thick as 25 centimeters, which is the length of two bananas. That’s why it was able to head-butt other dinosaurs without hurting its own head.",
+  "dino08Con03": "But the youngsters head bones were flat and thin, so they couldn’t fight well.",
+
+  "dinoTitle09": "Velociraptor",
+  "dino09Con01": "Velociraptor was a small but threatening dinosaur. This reptile was about the size of a large dog. Velociraptor was the smartest dinosaur and a great runner. It was even faster than Allosaurus, which was 10 times bigger than itself.",
+  "dino09Con02": "Velociraptor spied on other dinosaurs and attacked them using its smart brain. Velociraptor was a strong dinosaur; it could survive without eating anything for 10 days. What a terrifying dinosaur!",
+  "dino09Con03": "Although Velociraptor had lots of feathers on its front legs. it couldn’t fly. But the feathers played an important role. Parent Raptors covered their eggs with its cosy feathers. When the baby hatched, they spread their wings to protect their children from burning sunlight.",
+
+  "dinoTitle10": "ARCHAEOPTERYX",
+  "dino10Con01": "Archaeopteryx was a flying dinosaur. It was the size of a turkey. This flying reptile had many similarities with birds.",
+  "dino10Con02": "It had feathers and a beak, overall with a skeleton similar to that of birds. So it is believed that archaeopteryx is the ancestor of birds.",
+  "dino10Con03": "But unlike birds, the dinosaur had many teeth and clawed wings. The acute teeth were perfect for crushing bugs and small reptiles."
+
+  
+}

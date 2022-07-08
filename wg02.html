@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dinosaur02</title>
+    <link rel="stylesheet" href="./assets/lib/css/backdrop.css">
+    <link rel="stylesheet" href="./assets/lib/css/svg-arrow.css">
+    <link rel="stylesheet" href="./assets/lib/css/light.css">
+    <link rel="stylesheet" href="./assets/css/tippyTheme.css" />
+    <link rel="stylesheet" href="./assets/css/wg.css" />
+    <link rel="stylesheet" href="./assets/css/wg02.css">
+    <link rel="stylesheet" href="./assets/lib/css/spinkit.css">
+</head>
+<body>
+    <div class="spinner">
+        <div class="sk-chase">
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+        </div>
+    </div>
+    <div class="canvasWrap">
+        <div id="canvas"></div>
+        <!-- --------------------------sub_modal -------------------------- -->
+        <div id="sub_modal" class="sub_modalWrap">
+            <a href="javascript:;">
+                <div class="modalClose">
+                    <img class="sub_close" src="./assets/img/modal_close.png" alt="close_btn">
+                </div>
+            </a>
+            <div class="modalContent">
+                <div class="con_left con">
+                    <div>
+                        <b id="wg02SubText01"></b>
+                        <span id="wg02SubText02"></span>
+                    </div>
+                    <div>
+                        <b id="wg02SubText03"></b>
+                        <span id="wg02SubText04"></span>
+                    </div>
+                    <div>
+                        <b id="wg02SubText05"></b>
+                        <span id="wg02SubText06"></span>
+                    </div>
+                </div>
+                <div class="con_right con">
+                    <div>
+                        <b id="wg02SubText07"></b>
+                        <span id="wg02SubText08"></span>
+                    </div>
+                    <div>
+                        <b id="wg02SubText09"></b>
+                        <span id="wg02SubText10"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -------------------------- modal01 -------------------------- -->
+        <div id="modal01" class="modalWrap">
+            <div class="modalClose">
+                <img src="./assets/img/modal_close.png" alt="close_btn">
+            </div>
+            <div class="modalContent" id="wg02Modal01"></div>
+        </div>
+        <!-- -------------------------- modal02 -------------------------- -->
+        <div id="modal02" class="modalWrap">
+            <div class="modalClose">
+                <img src="./assets/img/modal_close.png" alt="close_btn">
+            </div>
+            <div class="modalContent" id="wg02Modal02"></div>
+        </div>
+        <!-- -------------------------- modal03 -------------------------- -->
+        <div id="modal03" class="modalWrap">
+            <div class="modalClose">
+                <img src="./assets/img/modal_close.png" alt="close_btn">
+            </div>
+            <div class="modalContent" id="wg02Modal03"></div>
+        </div>
+        <!-- -------------------------- modal04 -------------------------- -->
+        <div id="modal04" class="modalWrap">
+            <div class="modalClose">
+                <img src="./assets/img/modal_close.png" alt="close_btn">
+            </div>
+            <div class="modalContent" id="wg02Modal04"></div>
+        </div>
+    </div>
+    <!-- script -->
+    <script src="./assets/lib/js/three.js"></script>
+    <script src="./assets/lib/js/OrbitControls.js"></script>
+    <script src="./assets/lib/js/GLTFLoader.js"></script>
+    <script src="./assets/lib/js/RGBELoader.js"></script>
+    <script src="./assets/lib/js/CSS2DRenderer.js"></script>
+    <script src="./assets/lib/js/Projector.js"></script>
+    <script src="./assets/lib/js/domevents.js"></script>
+    <script src="./assets/lib/js/gsap.min.js"></script>
+    <script src="./assets/lib/js/core@2.js"></script>
+    <script src="./assets/lib/js/js@6.js"></script>
+    <script src="./assets/lib/js/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/module/touchEvent.js"></script>
+    <script src="./assets/js/wg02.js" type="module"></script>
+    <script src="./assets/js/lang.js" type="module"></script>
+</body>
+</html>

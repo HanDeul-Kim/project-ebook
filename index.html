@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google" content="notranslate" />
+    <link rel="stylesheet" href="./assets/lib/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/css/wg.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <title>Ebook</title>
+</head>
+<body>
+    <!-- background Audio -->
+    <audio id="audio_back">
+        <source id="source_back" src=""></source>
+    </audio>
+    <!-- narration & scream -->
+    <audio id="audio">
+        <source id="source" src=""></source>
+    </audio>
+    <!-- modal & title -->
+    <audio id="audioModal">
+        <source id="sourceModal" src=""></source>
+    </audio>
+    <!-- progressbar - doubleMode -->
+    <div class="progressbar-inner">
+        <div class="progressbar"></div>
+        <div class="dot" data-number="0" data-even="1"></div>
+        <div class="dot" data-number="1" data-even="2"></div>
+        <div class="dot" data-number="2" data-even="4"></div>
+        <div class="dot" data-number="3" data-even="6"></div>
+        <div class="dot" data-number="4" data-even="8"></div>
+        <div class="dot" data-number="5" data-even="10"></div>
+        <div class="dot" data-number="6" data-even="12"></div>
+        <div class="dot" data-number="7" data-even="14"></div>
+        <div class="dot" data-number="8" data-even="16"></div>
+        <div class="dot" data-number="9" data-even="18"></div>
+        <div class="dot" data-number="10" data-even="20"></div>
+        <div class="dot" data-number="11" data-even="22"></div>
+        <div class="dot" data-number="12" data-even="24"></div>
+        <div class="dot" data-number="13" data-even="26"></div>
+        <div class="dot" data-number="14" data-even="28">
+            <img class="dot-img" src="./assets/img/complete.png" alt="complete_img">
+        </div>
+    </div>
+    <!-- progressbar - singleMode -->
+    <div class="progressbar-inner-single">
+        <div class="progressbar-single"></div>
+        <div class="dot-single" data-number="0" data-page="1"></div>
+        <div class="dot-single" data-number="1" data-page="2"></div>
+        <div class="dot-single" data-number="2" data-page="3"></div>
+        <div class="dot-single" data-number="3" data-page="4"></div>
+        <div class="dot-single" data-number="4" data-page="5"></div>
+        <div class="dot-single" data-number="5" data-page="6"></div>
+        <div class="dot-single" data-number="6" data-page="7"></div>
+        <div class="dot-single" data-number="7" data-page="8"></div>
+        <div class="dot-single" data-number="8" data-page="9"></div>
+        <div class="dot-single" data-number="9" data-page="10"></div>
+        <div class="dot-single" data-number="10" data-page="11"></div>
+        <div class="dot-single" data-number="11" data-page="12"></div>
+        <div class="dot-single" data-number="12" data-page="13"></div>
+        <div class="dot-single" data-number="13" data-page="14"></div>
+        <div class="dot-single" data-number="14" data-page="15"></div>
+        <div class="dot-single" data-number="15" data-page="16"></div>
+        <div class="dot-single" data-number="16" data-page="17"></div>
+        <div class="dot-single" data-number="17" data-page="18"></div>
+        <div class="dot-single" data-number="18" data-page="19"></div>
+        <div class="dot-single" data-number="19" data-page="20"></div>
+        <div class="dot-single" data-number="20" data-page="21"></div>
+        <div class="dot-single" data-number="21" data-page="22"></div>
+        <div class="dot-single" data-number="22" data-page="23"></div>
+        <div class="dot-single" data-number="23" data-page="24"></div>
+        <div class="dot-single" data-number="24" data-page="25"></div>
+        <div class="dot-single" data-number="25" data-page="26"></div>
+        <div class="dot-single" data-number="26" data-page="27"></div>
+        <div class="dot-single" data-number="27" data-page="28"></div>
+        <div class="dot-single" data-number="28" data-page="29">
+            <img class="dot-img-single" src="./assets/img/complete.png" alt="complete_img">
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="flipcover">
+            <div class="cover-footer">
+                <span>2022. The Square Lab All rights reserved.</span>
+            </div>
+            <div class="cover-inner">
+                <div class="cover-content">
+                    <div class="cover-head">
+                        <h1>Dinosaurs come alive!</h1>
+                    </div>
+                    <div class="cover-main">
+                        <p>This spectacular interactive Ebook provides hands-on experiences and rip-roaring stories of various dinosaurs for children to enjoy.</p>
+                        <p>The world’s very first 4D Dinosaur book is ready to take you on a journey to see and color the exciting and thrilling stories of the marvelous beasts that once walked on the planet!</p>
+                        <p><b>Do not miss the chance to meet these majestic creatures.</b></p>
+                    </div>
+                    <div class="cover-info">
+                        <p>
+                            <b>www.thesquarelab.co.kr / info@thesquarelab.co.kr</b><br>As a digital content company, we made a 4D e-book,<br>as well as other various online books and educational contents.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- next prev button -->
+        <a class="flipBtnR flipBtnWrap" href="javascript:;">
+            <div class="flipBtn">
+                <img src="./assets/img/right_btn.png" alt="right-btn">
+            </div>
+        </a>
+        <a class="flipBtnL flipBtnWrap" href="javascript:;">
+            <div class="flipBtn">
+                <img src="./assets/img/left_btn.png" alt="left-btn">
+            </div>
+        </a>
+        <!-- flipbook -->
+        <div class="flipbook">
+            <!-- -------------------------- Page01 --------------------------- -->
+            <div class="page page01">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <div class="page01-footer">
+                            <span>Published by The Square Lab</span>
+                        </div>
+                        <div class="page01_overlay"></div>
+                        <div class="page01_overlay02">
+                        </div>
+                        <div class="page01_overlay03"></div>
+                        <div class="page01-title">
+                            <span class="font01">The Vivid world of</span>
+                            <h1>DINOSAURS <b>#1</b></h1>
+                            <span class="font02">4D</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page02 --------------------------- -->
+            <div class="page page02">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <div class="marquee-wrap">
+                            <div class="marquee marquee01"></div>
+                            <!-- <div class="marquee marquee02"></div> -->
+                        </div>
+                        <div class="page02-footer">
+                            <span>해당 사이트는 경기천년제목 글꼴/ 나눔손글씨 장미체/ 칠백삼체 유서연이 적용되어 있습니다.</span>
+                            <span>This site is applied with GyeonggiTitleOTF / Nanum JangMiCe / Room No.703</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page03 --------------------------- -->
+            <div class="page page03">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <div class="marquee-wrap">
+                            <div class="marquee marquee03"></div>
+                            <!-- <div class="marquee marquee04"></div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page04 --------------------------- -->
+            <div class="page page04">
+                <div class="pageWrap">
+                    <div class="pageContent" data-bgnum="04">
+                        <div class="lang_nav">
+                            <div class="lang_btn">
+                                <span>Language</span>
+                            </div>
+                            <div class="lang_select">
+                                <a href="#ko" class="select langCountry" id="langKo" data-lang="ko">
+                                    <img src="./assets/img/ko.png" alt="korea.png">
+                                    <div>한국어</div>
+                                </a>
+                                <a href="#en" class="select langCountry" id="langEn" data-lang="en">
+                                    <img src="./assets/img/en.png" alt="usa.png">
+                                    <div>English</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page05 --------------------------- -->
+            <div class="page page05">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <div class="character-inner">
+                            <div class="character">
+                                <span>character</span>
+                            </div>
+                        </div>
+                        <div class="page05-content">
+                            <div class="word">
+                                <span id="p05word01"></span>
+                                <span id="p05word02"></span>
+                            </div>
+                            <div class="word">
+                                <span id="p05word03"></span>
+                                <span id="p05word04"></span>
+                            </div>
+                            <div class="word">
+                                <span id="p05word05"></span>
+                                <span id="p05word06"></span>
+                            </div>
+                            <div class="word">
+                                <span id="p05word07"></span>
+                                <span id="p05word08"></span>
+                            </div>
+                            <div class="word">
+                                <span id="p05word09"></span>
+                                <span id="p05word10"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page06 --------------------------- -->
+            <div class="page page06">
+                <div class="pageWrap">
+                    <div class="pageContent" data-bgnum="06">
+                        <div class="use_btn">How to use</div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page07 --------------------------- -->
+            <div class="page page07">
+                <div class="pageWrap">
+                    <div class="pageContent" data-bgnum="07">
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page08 --------------------------- -->
+            <div class="page page08">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <div class="iframeWrap"></div>
+                        <div class="pageTitle">
+                            <div class="scream-wrap">
+                                <img data-title="p01title" class="rano_scream" src="./assets/img/sound2.png" alt="sound_png">
+                            </div>
+                            <h1 id="dinoTitle01"></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page09 --------------------------- -->
+            <div class="page page09">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <div class="narration" data-soundnum="0"><img src="./assets/img/sound.png" alt="narration_png"></div>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide slide01">
+                                    <article class="dino_content" id="dino01Con01"></article>
+                                </div>
+                                <div class="swiper-slide slide02">
+                                    <article class="dino_content" id="dino01Con02"></article>
+                                </div>
+                                <div class="swiper-slide slide03">
+                                    <article class="dino_content" id="dino01Con03"></article>
+                                </div>
+                                <div class="swiper-slide slide04"></div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page10 --------------------------- -->
+            <div class="page page10">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <div class="iframeWrap"></div>
+                        <div class="pageTitle">
+                            <div class="scream-wrap">
+                                <img data-title="p02title" class="rano_scream" src="./assets/img/sound2.png" alt="sound_png">
+                            </div>
+                            <h1 id="dinoTitle02"></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page11 --------------------------- -->
+            <div class="page page11">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <div class="narration" data-soundnum=1><img src="./assets/img/sound.png" alt="narration.png"></div>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide slide01">
+                                    <article class="dino_content" id="dino02Con01"></article>
+                                </div>
+                                <div class="swiper-slide slide02">
+                                    <article class="dino_content" id="dino02Con02"></article>
+                                </div>
+                                <div class="swiper-slide slide03">
+                                    <article class="dino_content" id="dino02Con03"></article>
+                                </div>
+                                <div class="swiper-slide slide04"></div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page12 --------------------------- -->
+            <div class="page page12">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <div class="iframeWrap"></div>
+                        <div class="pageTitle">
+                            <div class="scream-wrap">
+                                <img data-title="p03title" class="rano_scream" src="./assets/img/sound2.png" alt="sound_png">
+                            </div>
+                            <h1 id="dinoTitle03"></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page13 --------------------------- -->
+            <div class="page page13">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <div class="narration" data-soundnum=2>
+                            <img src="./assets/img/sound.png" alt="narration.png">
+                        </div>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide slide01">
+                                    <article class="dino_content" id="dino03Con01"></article>
+                                </div>
+                                <div class="swiper-slide slide02">
+                                    <article class="dino_content" id="dino03Con02"></article>
+                                </div>
+                                <div class="swiper-slide slide03">
+                                    <article class="dino_content" id="dino03Con03"></article>
+                                </div>
+                                <div class="swiper-slide slide04"></div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page14 --------------------------- -->
+            <div class="page page14">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <div class="iframeWrap"></div>
+                        <div class="pageTitle">
+                            <div class="scream-wrap"><img data-title="p04title" class="rano_scream"
+                                    src="./assets/img/sound2.png" alt="sound_png"></div>
+                            <h1 id="dinoTitle04"></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page15 --------------------------- -->
+            <div class="page page15">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <div class="narration" data-soundnum=3>
+                            <img src="./assets/img/sound.png" alt="narration.png">
+                        </div>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide slide01">
+                                    <article class="dino_content" id="dino04Con01"></article>
+                                </div>
+                                <div class="swiper-slide slide02">
+                                    <article class="dino_content" id="dino04Con02"></article>
+                                </div>
+                                <div class="swiper-slide slide03">
+                                    <article class="dino_content" id="dino04Con03"></article>
+                                </div>
+                                <div class="swiper-slide slide04"></div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page16 --------------------------- -->
+            <div class="page page16">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <div class="iframeWrap"></div>
+                        <div class="pageTitle">
+                            <div class="scream-wrap">
+                                <img data-title="p05title" class="rano_scream" src="./assets/img/sound2.png" alt="sound_png">
+                            </div>
+                            <h1 id="dinoTitle05"></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page17 --------------------------- -->
+            <div class="page page17">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <div class="narration" data-soundnum=4>
+                            <img src="./assets/img/sound.png" alt="narration.png">
+                        </div>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide slide01">
+                                    <article class="dino_content" id="dino05Con01"></article>
+                                </div>
+                                <div class="swiper-slide slide02">
+                                    <article class="dino_content" id="dino05Con02"></article>
+                                </div>
+                                <div class="swiper-slide slide03">
+                                    <article class="dino_content" id="dino05Con03"></article>
+                                </div>
+                                <div class="swiper-slide slide04"></div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page18 --------------------------- -->
+            <div class="page page18">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <div class="iframeWrap"></div>
+                        <div class="pageTitle">
+                            <div class="scream-wrap">
+                                <img data-title="p06title" class="rano_scream" src="./assets/img/sound2.png" alt="sound_png">
+                            </div>
+                            <h1 id="dinoTitle06"></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page19 --------------------------- -->
+            <div class="page page19">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <div class="narration" data-soundnum=5>
+                            <img src="./assets/img/sound.png" alt="narration.png">
+                        </div>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide slide01">
+                                    <article class="dino_content" id="dino06Con01"></article>
+                                </div>
+                                <div class="swiper-slide slide02">
+                                    <article class="dino_content" id="dino06Con02"></article>
+                                </div>
+                                <div class="swiper-slide slide03">
+                                    <article class="dino_content" id="dino06Con03"></article>
+                                </div>
+                                <div class="swiper-slide slide04"></div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page20 --------------------------- -->
+            <div class="page page20">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <div class="iframeWrap"></div>
+                        <div class="pageTitle">
+                            <div class="scream-wrap">
+                                <img data-title="p07title" class="rano_scream" src="./assets/img/sound2.png" alt="sound_png">
+                            </div>
+                            <h1 id="dinoTitle07"></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page21 --------------------------- -->
+            <div class="page page21">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <div class="narration" data-soundnum=6>
+                            <img src="./assets/img/sound.png" alt="narration.png">
+                        </div>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide slide01">
+                                    <article class="dino_content" id="dino07Con01"></article>
+                                </div>
+                                <div class="swiper-slide slide02">
+                                    <article class="dino_content" id="dino07Con02"></article>
+                                </div>
+                                <div class="swiper-slide slide03">
+                                    <article class="dino_content" id="dino07Con03"></article>
+                                </div>
+                                <div class="swiper-slide slide04"></div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page22 --------------------------- -->
+            <div class="page page22">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <div class="iframeWrap"></div>
+                        <div class="pageTitle">
+                            <div class="scream-wrap">
+                                <img data-title="p08title" class="rano_scream" src="./assets/img/sound2.png" alt="sound_png">
+                            </div>
+                            <h1 id="dinoTitle08"></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page23 --------------------------- -->
+            <div class="page page23">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <div class="narration" data-soundnum=7>
+                            <img src="./assets/img/sound.png" alt="narration.png">
+                        </div>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide slide01">
+                                    <article class="dino_content" id="dino08Con01"></article>
+                                </div>
+                                <div class="swiper-slide slide02">
+                                    <article class="dino_content" id="dino08Con02"></article>
+                                </div>
+                                <div class="swiper-slide slide03">
+                                    <article class="dino_content" id="dino08Con03"></article>
+                                </div>
+                                <div class="swiper-slide slide04"></div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page24 --------------------------- -->
+            <div class="page page24">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <div class="iframeWrap"></div>
+                        <div class="pageTitle">
+                            <div class="scream-wrap">
+                                <img data-title="p09title" class="rano_scream" src="./assets/img/sound2.png" alt="sound_png">
+                            </div>
+                            <h1 id="dinoTitle09"></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page25 --------------------------- -->
+            <div class="page page25">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <div class="narration" data-soundnum=8>
+                            <img src="./assets/img/sound.png" alt="narration.png">
+                        </div>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide slide01">
+                                    <article class="dino_content" id="dino09Con01"></article>
+                                </div>
+                                <div class="swiper-slide slide02">
+                                    <article class="dino_content" id="dino09Con02"></article>
+                                </div>
+                                <div class="swiper-slide slide03">
+                                    <article class="dino_content" id="dino09Con03"></article>
+                                </div>
+                                <div class="swiper-slide slide04"></div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page26 --------------------------- -->
+            <div class="page page26">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <div class="iframeWrap"></div>
+                        <div class="pageTitle">
+                            <div class="scream-wrap">
+                                <img data-title="p10title" class="rano_scream" src="./assets/img/sound2.png" alt="sound_png">
+                            </div>
+                            <h1 id="dinoTitle10"></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page27 --------------------------- -->
+            <div class="page page27">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <div class="narration" data-soundnum=9>
+                            <img src="./assets/img/sound.png" alt="narration.png">
+                        </div>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide slide01">
+                                    <article class="dino_content" id="dino10Con01"></article>
+                                </div>
+                                <div class="swiper-slide slide02">
+                                    <article class="dino_content" id="dino10Con02"></article>
+                                </div>
+                                <div class="swiper-slide slide03">
+                                    <article class="dino_content" id="dino10Con03"></article>
+                                </div>
+                                <div class="swiper-slide slide04"></div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page28 --------------------------- -->
+            <div class="page page28">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <div class="select-inner">
+                            <div class="select-wrap">
+                                <span>SELECT</span>
+                            </div>
+                        </div>
+                        <!-- sketchBook -->
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide slide-sketch" data-slideindex="0">
+                                    <div class="img-box">
+                                        <img class="sketchbook_btn active" src="./assets/img/sketch01.png" data-colornum="0" alt="sketchBook01_png">
+                                        <span class="sketch-title" data-colornum="0">Tyrannosaurus</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide-sketch" data-slideindex="1">
+                                    <div class="img-box">
+                                        <img class="sketchbook_btn" src="./assets/img/sketch02.png" data-colornum="1" alt="sketchBook02_png">
+                                        <span class="sketch-title" data-colornum="1">Pteranodon</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide-sketch" data-slideindex="2">
+                                    <div class="img-box">
+                                        <img class="sketchbook_btn" src="./assets/img/sketch03.png" data-colornum="2" alt="sketchBook03_png">
+                                        <span class="sketch-title" data-colornum="2">Allosaurus</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide-sketch" data-slideindex="3">
+                                    <div class="img-box">
+                                        <img class="sketchbook_btn" src="./assets/img/sketch04.png" data-colornum="3" alt="sketchBook04_png">
+                                        <span class="sketch-title" data-colornum="3">Stegosaurus</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide-sketch" data-slideindex="4">
+                                    <div class="img-box">
+                                        <img class="sketchbook_btn" src="./assets/img/sketch05.png" data-colornum="4" alt="sketchBook05_png">
+                                        <span class="sketch-title" data-colornum="4">Brachiosaurus</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide-sketch" data-slideindex="5">
+                                    <div class="img-box">
+                                        <img class="sketchbook_btn" src="./assets/img/sketch06.png" data-colornum="5" alt="sketchBook06_png">
+                                        <span class="sketch-title" data-colornum="5">Ankylosaurus</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide-sketch" data-slideindex="6">
+                                    <div class="img-box">
+                                        <img class="sketchbook_btn" src="./assets/img/sketch07.png" data-colornum="6" alt="sketchBook07_png">
+                                        <span class="sketch-title" data-colornum="6">Triceratops</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide-sketch" data-slideindex="7">
+                                    <div class="img-box">
+                                        <img class="sketchbook_btn" src="./assets/img/sketch08.png" data-colornum="7" alt="sketchBook08_png">
+                                        <span class="sketch-title" data-colornum="7">Pachycephalo<br>saurus</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide-sketch" data-slideindex="8">
+                                    <div class="img-box">
+                                        <img class="sketchbook_btn" src="./assets/img/sketch09.png" data-colornum="8" alt="sketchBook09_png">
+                                        <span class="sketch-title" data-colornum="8">Velociraptor</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide-sketch" data-slideindex="9">
+                                    <div class="img-box">
+                                        <img class="sketchbook_btn" src="./assets/img/sketch10.png" data-colornum="9" alt="sketchBook10_png">
+                                        <span class="sketch-title" data-colornum="9">Archaeopteryx</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- Page29 --------------------------- -->
+            <div class="page page29">
+                <div class="pageWrap">
+                    <div class="pageContent">
+                        <iframe id="if01" class="color_iframe active" src="./assets/color/color01.html" frameborder="0"></iframe>
+                        <iframe id="if02" class="color_iframe" src="./assets/color/color02.html" frameborder="0"></iframe>
+                        <iframe id="if03" class="color_iframe" src="./assets/color/color03.html" frameborder="0"></iframe>
+                        <iframe id="if04" class="color_iframe" src="./assets/color/color04.html" frameborder="0"></iframe>
+                        <iframe id="if05" class="color_iframe" src="./assets/color/color05.html" frameborder="0"></iframe>
+                        <iframe id="if06" class="color_iframe" src="./assets/color/color06.html" frameborder="0"></iframe>
+                        <iframe id="if07" class="color_iframe" src="./assets/color/color07.html" frameborder="0"></iframe>
+                        <iframe id="if08" class="color_iframe" src="./assets/color/color08.html" frameborder="0"></iframe>
+                        <iframe id="if09" class="color_iframe" src="./assets/color/color09.html" frameborder="0"></iframe>
+                        <iframe id="if10" class="color_iframe" src="./assets/color/color10.html" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./assets/lib/js/swiper-bundle.min.js"></script>
+        <script src="./assets/lib/js/ScrollTrigger.min.js"></script>
+        <!-- module -->
+        <script src="./assets/lib/js/three.js"></script>
+        <script src="./assets/lib/js/OrbitControls.js"></script>
+        <script src="./assets/lib/js/GLTFLoader.js"></script>
+        <script src="./assets//lib/js/RGBELoader.js"></script>
+        <script src="./assets/lib/js/CSS2DRenderer.js"></script>
+        <script src="./assets/lib/js/Projector.js"></script>
+        <script src="./assets/lib/js/domevents.js"></script>
+        <script src="./assets/lib/js/gsap.min.js"></script>
+        <script src="./assets/lib/js/core@2.js"></script>
+        <script src="./assets/lib/js/js@6.js"></script>
+        <script src="./assets/lib/js/jquery-3.6.0.min.js"></script>
+        <script src="./assets/js/module/turn.min.js"></script>
+        <!-- audio -->
+        <script src="./assets/js/soundLang.js" type="module"></script>
+        <!-- main & turn 라이브러리  -->
+        <script src="./assets/js/turn.js" type="module"></script>
+        <!-- language change -->
+        <script src="./assets/js/langList.js" type="module"></script>
+        <script src="./assets/js/lang.js" type="module"></script>
+        <!-- main custom -->
+        <script src="./assets/js/custom.js"></script>
+</body>
+
+</html>

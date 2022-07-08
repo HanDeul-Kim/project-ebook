@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 5em 0;
+    padding: 5em 10%;
+}
+/* 타이틀 */
+.main_title {
+    text-align: center;
+    background: #F4F4F4;
+    padding: 0.5em 0;
+    font-size: 1.75rem;
+}
+.small_title {
+    font-size: 1.25rem;
+    padding-top: 3em;
+    margin-bottom: 1em;
+}
+/* 조항 */
+.info-wrap {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+}
+.info{
+    margin:1.75em 0;
+}
+.info p {
+    margin: 1em 0;
+}
+.info h1 {
+    margin-bottom: 2em;
+}
+/* 조항 타이틀 */
+.info_title {
+    font-size: 1.5em;
+    background: #F4F4F4;
+}
+.list>li {
+    margin: 1em 0;
+}
+.bar {
+    margin: 1.5em 0;
+}
+.text_wrap {
+    line-height: 1.5em;
+}
+@media(max-width:1366px) {
+    html {
+        font-size: 14px;
+    }
+}
+@media(max-width:1024px) {
+    html {
+        font-size: 12px;
+    }
+}
+@media(max-width:768px) {
+    html {
+        font-size: 10px;
+    }
+}

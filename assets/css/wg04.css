@@ -1,0 +1,16 @@
+:root {
+    --sk-size: 80px !important;
+    --sk-color: rgba(0, 0, 0, 0.7) !important;
+}
+.tippy-box {
+    background: #5f6449 !important;
+}
+.tippy-arrow {
+    color: #5f6449 !important;
+}
+.wgBtn {
+    background: url("../img/node_button.png") no-repeat center center / cover !important;
+}
+.wgBtn:nth-child(2) {
+    background: url("../img/node_sound.png") no-repeat center center / cover !important;
+}
