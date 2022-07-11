@@ -538,7 +538,7 @@ body .wrap .flipbook .page01 .pageWrap .pageContent {
 }
 /* page04 */
 body .wrap .flipbook .page04 .pageWrap .pageContent{
-    background: url("../img/page04_bg_en.jpg") no-repeat center center / cover;
+    background: url("../img/page04_bg_ko.jpg") no-repeat center center / cover;
 }
 /* page05 */
 body .wrap .flipbook .page05 .pageWrap .pageContent {
@@ -581,7 +581,7 @@ body .wrap .flipbook .page05 .pageWrap .pageContent {
 /* page06 */
 body .wrap .flipbook .page06 .pageWrap .pageContent {
     display:block !important;
-    background: url("../img/page06_bg_en.jpg") no-repeat center center / cover;
+    background: url("../img/page06_bg_ko.jpg") no-repeat center center / cover;
 }
 .lang_nav,
 .character-inner,
@@ -639,7 +639,7 @@ body .wrap .flipbook .page06 .pageWrap .pageContent {
 }
 /* page07 */
 body .wrap .flipbook .page07 .pageWrap .pageContent {
-    background: url("../img/page07_bg_en.jpg") no-repeat center center / cover;
+    background: url("../img/page07_bg_ko.jpg") no-repeat center center / cover;
     display:block;
 }
 .use_btn{
